@@ -1,0 +1,17 @@
+pipeline{
+    agent any
+    stages{
+        stage("Git Checkout"){
+            steps{
+               
+               git 'https://github.com/ajesh1105/myweb'
+            }
+        }
+         stage("mvn build"){
+            steps{
+               
+               sh 'mvn clean package'
+            }
+        }
+        }
+        }
