@@ -37,10 +37,9 @@
 		    <version>5.2.0</version>
 		</dependency>
 	</dependencies>
+	
 	<properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-</properties>
-	<properties>
+                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    		<maven.compiler.source>6</maven.compiler.source>
    		<maven.compiler.target>1.6</maven.compiler.target>
  	</properties>
