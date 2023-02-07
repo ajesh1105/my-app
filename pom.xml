@@ -8,10 +8,6 @@
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
 	
-	<properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -41,6 +37,9 @@
 		    <version>5.2.0</version>
 		</dependency>
 	</dependencies>
+	<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
 	<properties>
    		<maven.compiler.source>6</maven.compiler.source>
    		<maven.compiler.target>1.6</maven.compiler.target>
